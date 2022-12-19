@@ -1,0 +1,17 @@
+.s-pagination {
+  display: flex;
+  justify-content: space-between;
+  height: auto;
+  padding: 10px;
+  background-color: #fff;
+}
+.s-pagination-pos-fixed {
+  position: fixed;
+  bottom: 0;
+  z-index: 11;
+  box-shadow: 0 -10px 6px -10px #ccc;
+  transition: left 0.3s;
+}
+.s-pagination-pos-static {
+  position: static;
+}

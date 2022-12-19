@@ -1,2 +1,3 @@
 # rap-el-components
-基于element-ui封装的快速开发的组件
+
+基于 element-ui 封装的快速业务开发的组件

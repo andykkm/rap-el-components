@@ -1,0 +1,7 @@
+.vscode
+.husky
+node_modules
+static
+dist
+src
+index.html

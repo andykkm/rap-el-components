@@ -1,0 +1,34 @@
+.s-table {
+  background: #fff;
+  border-radius: 4px;
+  padding: 8px;
+}
+.s-table.is-always-shadow {
+  box-shadow: 0 2px 12px 0 rgb(0 0 0 / 10%);
+}
+.s-table-toolbar {
+  padding: 4px 0;
+  background-color: #fff;
+  position: sticky;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .s-toolbar {
+    flex: 1;
+  }
+}
+.s-table-toolbar-action {
+  margin-left: 24px;
+  .el-icon-refresh,
+  .el-icon-setting {
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: 12px;
+  }
+  .el-icon-refresh:hover {
+    color: #409eff;
+  }
+  .el-icon-setting:hover {
+    color: #409eff;
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "include": ["./src/**/*", "./packages/**/*"],
+  "exclude": ["node_modules", "dist"],
+  "compilerOptions": {
+    "jsx": "preserve",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*", "./packages/*"]
+    },
+    "outDir": "/",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "strict": true,
+    "allowJs": true,
+    "target": "es5",
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "sourceMap": true,
+    "removeComments": false,
+    "noImplicitAny": false,
+    "allowSyntheticDefaultImports": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true
+  }
+}
