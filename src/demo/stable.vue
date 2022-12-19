@@ -1,9 +1,17 @@
 <template>
-  <div>StablePage</div>
+  <div>
+    <Stable></Stable>
+  </div>
 </template>
 
 <script>
-export default {}
+const Stable = require('../../lib/Stable')
+export default {
+  name: 'StablePage',
+  components: {
+    Stable,
+  },
+}
 </script>
 
 <style></style>

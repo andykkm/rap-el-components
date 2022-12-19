@@ -5,7 +5,7 @@
     "jsx": "preserve",
     "baseUrl": ".",
     "paths": {
-      "@/*": ["./src/*", "./packages/*"]
+      "@/*": ["./src/*", "./packages/*", "./lib/*"]
     },
     "outDir": "/",
     "module": "esnext",

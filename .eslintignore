@@ -4,4 +4,5 @@ node_modules
 static
 dist
 src
+lib
 index.html

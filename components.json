@@ -1,0 +1,6 @@
+{
+  "Smenu": "./packages/menu/index.js",
+  "Spagination": "./packages/pagination/index.js",
+  "Stoolbar": "./packages/toolbar/index.js",
+  "Stable": "./packages/table/index.js"
+}
