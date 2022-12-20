@@ -1,11 +1,11 @@
 <template>
   <div>
-    <Stable></Stable>
+    <Stable shadow></Stable>
   </div>
 </template>
 
 <script>
-const Stable = require('../../lib/Stable')
+import Stable from '../../packages/table'
 export default {
   name: 'StablePage',
   components: {

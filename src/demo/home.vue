@@ -1,7 +1,7 @@
 <template>
   <div class="main">
     <div class="main-lt">
-      <SMenu :menus="menus" :router="true"></SMenu>
+      <SMenu :menus="menus" :router="true" :default-active="currentActive"></SMenu>
     </div>
     <div class="main-rg">
       <router-view></router-view>
@@ -20,7 +20,16 @@ export default {
   data() {
     return {
       menus: [],
+      currentActive: '',
     }
+  },
+  watch: {
+    $route: {
+      immediate: true,
+      handler: function () {
+        this.currentActive = this.$route.path
+      },
+    },
   },
   created() {
     this.menus = routes
@@ -36,11 +45,13 @@ export default {
 }
 .main-lt {
   height: 100vh;
-  width: 300px;
+  width: 200px;
   border-right: 1px solid #dcdcdc;
 }
 .main-rg {
   height: 100vh;
-  overflow-y: auto;
+  width: 100%;
+  padding: 12px;
+  box-sizing: border-box;
 }
 </style>
