@@ -1,9 +1,9 @@
 {
-  "name": "super-element-components",
+  "name": "rap-el",
   "version": "1.0.0",
   "description": "基于elementui封装的组件库",
   "private": false,
-  "main": "lib/rap-el.js",
+  "main": "packages/index.js",
   "files": [
     "lib",
     "packages"
