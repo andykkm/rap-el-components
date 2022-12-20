@@ -26,9 +26,13 @@ export default {
         return [30, 50, 100, 300]
       },
     },
+    total: {
+      type: Number,
+      default: 0,
+    },
     position: {
       type: String,
-      default: 'fixed',
+      default: 'static',
     },
   },
   render() {

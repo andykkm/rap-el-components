@@ -92,7 +92,6 @@ export default {
   data() {
     let localPagination = {
       layout: 'total, sizes, prev, pager, next, jumper',
-      pageSizes: [30, 50, 100, 300],
     }
     if (this.pagination && typeof this.pagination === 'object') {
       localPagination = {...localPagination, ...this.pagination}
@@ -337,7 +336,6 @@ export default {
       }
     },
     updateLayout() {
-      //todo
       if (this.$refs.pagination) {
         let stableRect = this.$el.getBoundingClientRect()
         let win = document.documentElement.offsetWidth
