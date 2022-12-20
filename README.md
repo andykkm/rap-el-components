@@ -16,3 +16,7 @@ npm install rap-el
 import {Stable,Spagination,Smenu,Stoolbar} from 'rap-el'
 ```
 
+### notice
+
+***暂时不能使用，还在加班加点完善中，最迟2022.12.25号可发布第一个版本***
+
