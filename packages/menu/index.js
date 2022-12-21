@@ -1,5 +1,5 @@
-import SMenu from './SMenu.jsx'
-SMenu.install = function (Vue) {
-  Vue.component(SMenu.name, SMenu)
+import Menu from './Menu.jsx'
+Menu.install = function (Vue) {
+  Vue.component(Menu.name, Menu)
 }
-export default SMenu
+export default Menu

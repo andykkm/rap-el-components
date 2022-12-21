@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import Stable from '../../packages/table'
+import {Stable} from '../../packages/index'
 export default {
   name: 'StablePage',
   components: {

@@ -1,6 +1,6 @@
 import './index.scss'
-import SPagination from './SPagination.jsx'
-SPagination.install = function (Vue) {
-  Vue.component(SPagination.name, SPagination)
+import Pagination from './Pagination.jsx'
+Pagination.install = function (Vue) {
+  Vue.component(Pagination.name, Pagination)
 }
-export default SPagination
+export default Pagination
