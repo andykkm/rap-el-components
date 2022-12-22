@@ -10,10 +10,10 @@ module.exports = {
   entry: Components,
   output: {
     path: path.resolve(__dirname, './lib'),
-    publicPath: '/dist/',
+    publicPath: '/',
     filename: '[name].js',
     chunkFilename: '[id].js',
-    libraryTarget: 'commonjs2',
+    libraryTarget: 'umd',
   },
   externals: {},
   module: {

@@ -13,10 +13,10 @@ npm install rap-el
 ### Usage
 
 ```javascript
-import {Stable,Spagination,Smenu,Stoolbar} from 'rap-el'
+import rapEl from 'rap-el'
+import {Stable, Spagination, Smenu, Stoolbar} from 'rap-el'
 ```
 
 ### notice
 
-***暂时不能使用，还在加班加点完善中，最迟2022.12.25号可发布第一个版本***
-
+**_可以使用，还在完善中，有什么建议可以到 github 留言_**

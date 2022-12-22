@@ -23,6 +23,5 @@
   "eslint.enable": true,
   "eslint.codeAction.showDocumentation": {
     "enable": true
-  },
-  "i18n-ally.localesPaths": ["src/locales", "src/locales/lang"]
+  }
 }
